@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Gamepad2, Code, Palette, Mail, Github, Linkedin } from 'lucide-react';
+import { Gamepad2, Code, Palette, Mail, Github, Linkedin, ExternalLink } from 'lucide-react';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -163,6 +163,16 @@ function App() {
                   </div>
                 </div>
               </div>
+
+              <a
+                href="https://your-everafter-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 mt-6"
+              >
+                View Project
+                <ExternalLink className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>
