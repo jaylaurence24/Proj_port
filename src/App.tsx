@@ -16,7 +16,7 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-blue-500/20">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent animate-pulse">
-            JLA
+            Hi! This is my Portfolio
           </div>
           <div className="flex gap-6">
             {['Home', 'Projects', 'Contact'].map((item) => (
@@ -63,7 +63,7 @@ function App() {
               </h1>
             </div>
             <p className="text-xl text-blue-200 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              Game Developer & Digital Artist
+              UI/UX Designer and Full Stack Developer
             </p>
             <p className="text-gray-300 leading-relaxed animate-fade-in" style={{ animationDelay: '0.5s' }}>
               Crafting immersive gaming experiences with GoDot engine and bringing visions to life through digital artistry.
@@ -163,15 +163,14 @@ function App() {
                   </div>
                 </div>
               </div>
-
-              <a
+               <a
                 href="https://ever-after.onrender.com/"
-                target="_blank"
+                target="_View"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 mt-6"
-              >
-                View Project
+                  > View Project
                 <ExternalLink className="w-5 h-5" />
+                
               </a>
             </div>
           </div>
@@ -194,7 +193,7 @@ function App() {
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <a
-              href="mailto:jay@example.com"
+              href="https://www.facebook.com/kiyoshinnbruhhh"
               className="p-8 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-blue-500/30 hover:border-blue-500 hover:bg-slate-800/80 transition-all duration-300 group hover:scale-105"
             >
               <Mail className="w-12 h-12 text-blue-400 mx-auto mb-4 group-hover:animate-bounce" />
@@ -203,7 +202,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/jaylaurence24"
               target="_blank"
               rel="noopener noreferrer"
               className="p-8 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-blue-500/30 hover:border-blue-500 hover:bg-slate-800/80 transition-all duration-300 group hover:scale-105"
@@ -214,7 +213,7 @@ function App() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jay-laurence-aquito-005333372/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-8 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-blue-500/30 hover:border-blue-500 hover:bg-slate-800/80 transition-all duration-300 group hover:scale-105"
